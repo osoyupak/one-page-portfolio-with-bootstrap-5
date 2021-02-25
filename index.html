@@ -16,19 +16,93 @@
     <link rel="stylesheet" href="./style.css" />
     <title>İlayda SOYUPAK</title>
   </head>
-  <body>
-    <!--Hero-->
-    <div class="container-fluid text-center bg-hero pt-5">
-      <h1>İlayda SOYUPAK</h1>
-      <h4>Interior Architect & Researcher</h4>
-      <p>You can download my resume</p>
-      <button type="button" class="btn btn-lg btn-outline-dark">
-        Download CV
-      </button>
-    </div>
-    <!--End Hero-->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+  <body>
+    <!-- Navbar -->
+    <header id="header">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">İlayda</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Navbar -->
+
+    <!-- Hero -->
+    <section class="dark-bg" id="hero">
+      <div class="container">
+        <div
+          class="text-light d-flex h-100 flex-column justify-content-center align-items-center"
+        >
+          <h1 class="display-1">
+            İlayda <span class="text-danger fw-bold">SOYUPAK</span>
+          </h1>
+          <h4>Interior Designer & Researcher</h4>
+          <p>You can download my CV below link</p>
+          <button type="button" class="btn btn-lg btn-outline-light">
+            Download CV
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <h2 class="m-3 m-md-5 text-center">About Me</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="./images/ilayda.jpg"
+              class="img-fluid rounded-circle mx-auto d-block mb-3"
+              alt=""
+            />
+          </div>
+          <div class="col-md-8 d-flex flex-column justify-content-center h100">
+            <p>
+              Hi, I am İlayda, industrial designer and researcher. Lorem, ipsum
+              dolor sit amet consectetur adipisicing elit. Iure, sed.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              voluptatum eveniet qui sed dicta est consequuntur nam asperiores
+              distinctio quam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
