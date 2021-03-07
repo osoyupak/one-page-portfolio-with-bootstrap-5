@@ -22,3 +22,6 @@ body {
   height: 50vh;
   min-height: 400px;
 }
+.icon {
+  font-size: 3rem;
+}
